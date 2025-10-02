@@ -11,9 +11,9 @@ function calculatePay() {
   if (mileage <= 15) {
     totalRate = 38.50;
   } else if (mileage <= 25) {
-    totalRate = 38.50 + (mileage - 15) * 1.8;
+    totalRate = 38.50 + (mileage - 15) * 1.5;
   } else {
-    totalRate = 38.50 + 10 * 1.8 + (mileage - 25) * 1.4;
+    totalRate = 38.50 + 10 * 1.5 + (mileage - 25) * 1.3;
   }
 
   const tripRate = totalRate * 0.87;
